@@ -21,7 +21,6 @@ public class Práctica_Ahorcado {
 
         Scanner sc = new Scanner(System.in);
         
-
         System.out.println("Introduzca el nombre del jugador 1: ");
         String cad = sc.nextLine();
         Jugador j1 = new Jugador(cad);
@@ -29,7 +28,7 @@ public class Práctica_Ahorcado {
         System.out.println("Introduzca el nombre del jugador 2: ");
         String cad2 = sc.nextLine();
         Jugador j2 = new Jugador(cad2);
-
+        
                                     
                               // AL MEJOR DE 4 PARTIDAS
                                     
